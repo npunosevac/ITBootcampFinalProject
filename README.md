@@ -1,5 +1,4 @@
 # Zavrsni-Projekat
-U izradi
 
 ZAVRSNI PROJEKAT X GENERACIJA - BEOGRAD
 
