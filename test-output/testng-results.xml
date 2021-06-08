@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13825" started-at="2021-06-08T20:59:13Z" finished-at="2021-06-08T20:59:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13825" started-at="2021-06-08T20:59:13Z" finished-at="2021-06-08T20:59:26Z">
+      <class name="tests.TestChangeLanguage">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:tests.TestChangeLanguage@7cd62f43]" name="createDriver" is-config="true" duration-ms="2984" started-at="2021-06-08T20:59:13Z" finished-at="2021-06-08T20:59:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="FAIL" signature="testChangeLanguage()[pri:0, instance:tests.TestChangeLanguage@7cd62f43]" name="testChangeLanguage" duration-ms="9870" started-at="2021-06-08T20:59:16Z" finished-at="2021-06-08T20:59:25Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Платни списак] but found [Albanian (machine)
+American English
+Arabic (machine)
+Belarusian (machine)
+Bulgarian (machine)
+Catalan (machine)
+Chinese Simplified (machine)
+Chinese Traditional (machine)
+Croatian (machine)
+Czech (machine)
+Danish (machine)
+Dutch (machine)
+Estonian (machine)
+Filipino (machine)
+Finnish (machine)
+French (Canadian)
+Georgian (machine)
+German (machine)
+Hebrew (machine)
+Hungarian (machine)
+Icelandic (machine)
+Irish (machine)
+Italian (machine)
+Japanese (machine)
+Korean (machine)
+Latvian (machine)
+Lithuanian (machine)
+Macedonian (machine)
+Malay (machine)
+Maltese (machine)
+Norwegian (machine)
+Polish (machine)
+Portuguese (machine)
+Portuguese (Brazil) (machine)
+Romanian (machine)
+Russian (machine)
+Serbian (machine)
+Slovak (machine)
+Slovenian (machine)
+Spanish
+Swedish (machine)
+Thai (machine)
+Turkish (machine)
+Ukrainian (machine)
+Vietnamese (machine)
+Welsh (machine)]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Платни списак] but found [Albanian (machine)
+American English
+Arabic (machine)
+Belarusian (machine)
+Bulgarian (machine)
+Catalan (machine)
+Chinese Simplified (machine)
+Chinese Traditional (machine)
+Croatian (machine)
+Czech (machine)
+Danish (machine)
+Dutch (machine)
+Estonian (machine)
+Filipino (machine)
+Finnish (machine)
+French (Canadian)
+Georgian (machine)
+German (machine)
+Hebrew (machine)
+Hungarian (machine)
+Icelandic (machine)
+Irish (machine)
+Italian (machine)
+Japanese (machine)
+Korean (machine)
+Latvian (machine)
+Lithuanian (machine)
+Macedonian (machine)
+Malay (machine)
+Maltese (machine)
+Norwegian (machine)
+Polish (machine)
+Portuguese (machine)
+Portuguese (Brazil) (machine)
+Romanian (machine)
+Russian (machine)
+Serbian (machine)
+Slovak (machine)
+Slovenian (machine)
+Spanish
+Swedish (machine)
+Thai (machine)
+Turkish (machine)
+Ukrainian (machine)
+Vietnamese (machine)
+Welsh (machine)]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at tests.TestChangeLanguage.testChangeLanguage(TestChangeLanguage.java:53)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeLanguage -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.TestChangeLanguage@7cd62f43]" name="closeDriver" is-config="true" duration-ms="939" started-at="2021-06-08T20:59:25Z" finished-at="2021-06-08T20:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- tests.TestChangeLanguage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
